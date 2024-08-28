@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header img{
+    width: 5vw;
+    margin: 1em;
+
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner img{
+    border-radius: 1em;
+    width: 10vw;
+    -webkit-box-shadow: 11px -12px 40px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px -12px 40px -13px rgba(0,0,0,0.75);
+box-shadow: 11px -12px 40px -13px rgba(0,0,0,0.75);
+
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    justify-content: space-evenly; 
+    margin-top: 10vh;
+}
+   
+.circulo{
+    width: 10vw;
+    height:  20vh;
+    background-color: black;
+    border-radius: 50%
+    
+}
+.quadrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 20vh;
+}
+.texto{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 2em;
+}
+.imagem{
+    height: 20vh;
+    width: 30vw;
+    background-color: blueviolet;
+    margin: 4em;
+    background-image: url(clove.jfif);
+    background-size: cover;
+}
+
